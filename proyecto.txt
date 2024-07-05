@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Ambiental - Consejos y Noticias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTeW4w9hFPvqzuDPuvninVygsAAY3-vjtES__1ajsM0wGI4tbDle0RrRYoQOzWVB_u4') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: #333; /* Color de texto principal */
+        }
+        header {
+            background-color: #4caf50; /* Verde oscuro para la cabecera */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            width: 100%;
+        }
+        .main-content {
+            width: 100%;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido para el contenido */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .lists {
+            width: 100%;
+            max-width: 300px;
+            margin-right: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido para las listas */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .lists ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .lists ul li {
+            margin-bottom: 10px;
+        }
+        .news {
+            background-color: #ffffff; /* Fondo blanco para el cuadro de noticias */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+            flex-grow: 1;
+        }
+        .news-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            overflow: hidden;
+        }
+        .news-item img {
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+            margin-right: 20px;
+            float: left;
+        }
+        .news-item h3 {
+            color: #4caf50; /* Color verde oscuro para el título de noticias */
+            margin-top: 0;
+        }
+        .news-item p {
+            text-align: justify;
+        }
+        .register-box {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .register-box h3 {
+            margin-top: 0;
+        }
+        .register-box input[type="text"],
+        .register-box input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        .credits {
+            text-align: right;
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>App Ambiental - Consejos y Noticias</h1>
+    </header>
+    <div class="container">
+        <div class="lists">
+            <h3>15 Consejos para Cuidar el Medio Ambiente</h3>
+            <ul>
+                <li>1. Reduce, reutiliza y recicla</li>
+                <li>2. Usa bombillas de bajo consumo</li>
+                <li>3. Desconecta los electrodomésticos que no uses</li>
+                <li>4. Reduce el uso de agua</li>
+                <li>5. Planta un árbol</li>
+                <li>6. Usa transporte público o comparte el coche</li>
+                <li>7. Reduce el uso de plásticos</li>
+                <li>8. Compra productos locales</li>
+                <li>9. Ahorra energía</li>
+                <li>10. Usa bolsas reutilizables</li>
+                <li>11. Consume menos carne</li>
+                <li>12. Apoya las energías renovables</li>
+                <li>13. Evita productos con mucho embalaje</li>
+                <li>14. Educa a otros sobre la importancia del medio ambiente</li>
+                <li>15. Participa en limpiezas comunitarias</li>
+            </ul>
+            <h3>5 Acciones que Perjudican el Medio Ambiente</h3>
+            <ul>
+                <li>1. Deforestación</li>
+                <li>2. Uso excesivo de plásticos</li>
+                <li>3. Emisión de gases de efecto invernadero</li>
+                <li>4. Contaminación del agua</li>
+                <li>5. Desperdicio de alimentos</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="news">
+                <div class="news-item">
+                    <img src="https://www.elespectador.com/resizer/v2/I4NNAJR3DHQQI3WA7DTAFEY7HE.jpg?auth=9af1640c94d7f1861e033a599dd4550260a6bd718732ef7525b15d1e5b0abae0&width=920&height=613&smart=true&quality=60" alt="Noticia 1">
+                    <div>
+                        <h3>Incendios en Amazonia brasileña durante primer semestre son los peores en 20 años</h3>
+                        <p>Los incendios en la Amazonia brasileña han alcanzado niveles récord durante el primer semestre de 2024, siendo los peores en dos décadas.</p>
+                        <p>Fuente: <a href="https://www.elespectador.com/ambiente/amazonas/incendios-en-amazonia-brasilena-durante-primer-semestre-son-los-peores-en-20-anos/">El Espectador</a></p>
+                    </div>
+                </div>
+                
+                <div class="news-item">
+                    <img src="https://www.elespectador.com/resizer/v2/EYX7OAWPAFFQ5BJ2PBZ6SXGVJU.jpg?auth=c87dd88720a15062aebe720ea41afa89ffc259e69b7ee930ce3ccfc0258a3bd1&width=920&height=613&smart=true&quality=60" alt="Noticia 2">
+                    <div>
+                        <h3>Indígenas de la Amazonia piden al gobierno que les cumpla una promesa del Plan Nacional de Desarrollo</h3>
+                        <p>Los líderes indígenas de la Amazonia exigen al gobierno cumplir con las promesas establecidas en el Plan Nacional de Desarrollo para proteger sus territorios.</p>
+                        <p>Fuente: <a href="https://www.elespectador.com/ambiente/amazonas/indigenas-de-la-amazonia-piden-al-gobierno-que-les-cumpla-una-promesa-del-plan-nacional-de-desarrollo/">El Espectador</a></p>
+                    </div>
+                </div>
+                
+                <div class="news-item">
+                    <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/595c/live/fd6aaa30-169c-11ef-9b16-15114b27fe47.jpg.webp" alt="Noticia 3">
+                    <div>
+                        <h3>Las áreas marinas protegidas no están logrando proteger especies raras de peces</h3>
+                        <p>Un nuevo estudio revela que las áreas marinas protegidas no están siendo efectivas para proteger especies raras de peces debido a la falta de control y monitoreo adecuado.</p>
+                        <p>Fuente: <a href="https://www.bbc.com/mundo/articles/c255jwd15eno">BBC Mundo</a></p>
+                    </div>
+                </div>
+                
+                <div class="news-item">
+                    <img src="https://estaticos.elcolombiano.com/binrepository/780x593/0c14/780d565/none/11101/RPIT/animalesriesgoextinciondesastresnaturales_45379907_20240618153510.jpg" alt="Noticia 4">
+                    <div>
+                        <h3>Animales en riesgo de extinción debido a desastres naturales</h3>
+                        <p>Desastres naturales como incendios y huracanes están poniendo en riesgo de extinción a diversas especies animales alrededor del mundo.</p>
+                        <p>Fuente: <a href="https://www.elcolombiano.com/tendencias/animales-riesgo-extincion-desastres-naturales-OO24805784">El Colombiano</a></p>
+                    </div>
+                </div>
+                
+                <div class="news-item">
+                    <img src="https://estaticos.elcolombiano.com/binrepository/679x385/0c0/0d0/none/11101/JXFG/las-areas-marinas-protegidas-desamparan-a-los-peces-diadromos_45234333_20240530102530.jpg" alt="Noticia 5">
+                    <div>
+                        <h3>Las áreas marinas protegidas no protegen especies raras de peces</h3>
+                        <p>Un reciente informe evidencia que las áreas marinas protegidas no están cumpliendo con su objetivo de preservar especies raras de peces.</p>
+                        <p>Fuente: <a href="https://www.elcolombiano.com/medio-ambiente/las-areas-marinas-protegidas-no-protegen-especies-raras-de-peces-HE24648917">El Colombiano</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="register-box">
+                <h3>Registrate para conocer más sobre el medio ambiente!</h3>
+                <form action="#">
+                    <input type="text" placeholder="Tu nombre" required>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+            <div class="credits">
+                Página hecha por Mateo Lopera.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
